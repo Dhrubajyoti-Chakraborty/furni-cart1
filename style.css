@@ -210,13 +210,24 @@ body {
       min-width: 450px;
     }
   }
-  @media screen and (min-width: 320px) {
+  /* @media screen and (min-width: 320px) {
     .hero {
       min-height: calc(100vh - 60px);
-      background: url("./images/hero-bcg.jpeg") center/cover no-repeat;
+      background: url("./images/hero-bcg-fon.jpeg") center/cover no-repeat;
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+  } */
+
+  @media screen and (max-width: 767px){
+    .hero {
+      /* min-height: calc(100vh - 60px); */
+      background: url("./images/hero-bcg-fon.jpg") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-size: 100% 100%;
     }
   }
   
